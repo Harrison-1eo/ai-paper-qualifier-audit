@@ -1,0 +1,8 @@
+CC BY 4.0 License (本仓库原创材料适用)
+
+本仓库中由提交者创作的材料（README.md、prompts/、experiments/、verification/、提交说明.md 等）依据 Creative Commons Attribution 4.0 International License 授权：
+https://creativecommons.org/licenses/by/4.0/
+
+例外（非上述许可覆盖，按各自原始许可分发/引用）：
+- paper/2610.28675.pdf 及论文相关引文：Chen et al., arXiv:2610.28675v1，依 arXiv.org non-exclusive distribution license 1.0 分发（http://www.arxiv.org/licenses/nonexclusive-distrib/1.0/）。
+- experiments/ 中 AI 输出存档为对上述论文的总结/引述产物，随本仓库材料一并提供用于核查，论文版权归原作者所有。
