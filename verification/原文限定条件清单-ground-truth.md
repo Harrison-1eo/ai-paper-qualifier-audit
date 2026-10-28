@@ -13,7 +13,7 @@
 | GT2 | 该差距带 95% 任务簇 bootstrap 区间 **[9.63, 14.43]**，且"每个模型–方法组合都出现差距"（包括编译率>99% 的组合） | p12 §6.1 | "a difference of 11.92 percentage points (95% … [9.63, 14.43])"；"appears in every model–method combination" |
 | GT3 | "任务通过"的判定包含完整链条：保留公共接口与 POU 身份 + 编译/链接成功 + 全部场景完整执行 + **每个 scan 后所有声明输出/inout 完全匹配**；所有不成功结果都留在分母 | p6 §3.2 | "matching every observed reference value after every scan" |
 | GT4 | **通过 ≠ 功能正确**：通过只建立在"所提供有限场景上的参考一致"，不保证完整功能正确性、终止性或物理安全 | p6 §3.2 | "Passing establishes agreement on the supplied finite scenarios… rather than complete functional correctness, termination, or physical safety" |
-| GT5 | 基准构成：**301 任务**（287 FB + 14 program）、**684 场景、61,424 scans**；中位数任务 2 入/2 出/29 行参考代码/1 场景/15 scans | p2；p6 §3.3 Table 2 | "301 ST function blocks and programs… 684 scenarios and 61,424 scans" |
+| GT5 | 基准构成：**301 任务**（287 FB + 14 program）、**684 场景、61,424 scans**；中位数任务 2 入/2 出/29 行参考代码/1 场景/15 scans | p2；p4 §3；p6 §3.3 Table 2（v1.2 核查器定位：引文原句在 p4 §3，已补注） | "301 ST function blocks and programs… 684 scenarios and 61,424 scans" |
 | GT6 | 参考程序、评估场景与期望输出对生成过程**隐藏**；候选在隐藏评分前冻结；逻辑时间按 scan 调度推进而非宿主物理时间（物理时序保证需另行测量） | p3；p6 §3.2 | "Generation, selection, and repair cannot access references, hidden inputs, or reference outputs" |
 
 ## RQ4（观测粒度）类 —— 最容易被过度泛化的数字
